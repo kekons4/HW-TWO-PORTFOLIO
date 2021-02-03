@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Keon Pourboghrat</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="./favicon.png" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css">
+
+</head>
+
+<body>
+  <nav class=" " id="topNav">
+    <div class="container">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <span>Keon Pourboghrat</span>
+    </div>
+    <div class="container-two">
+      <a href="#about" class="active" id="">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="end">Contact</a>
+    </div>
+  </nav>
+
+  <div id="about" class="space"></div>
+
+  <section>
+    <div class="content">
+      <img src="me2.jpg" alt="picture of me" />
+      <span class="title">Keon Pourboghrat</span>
+      <span class="degree">BA in Philosophy</span>
+      <span class="school">The Ohio State University</span>
+      <div class="content-icon-cont">
+        <a href="https://www.github.com/kekons4"><i class="fa fa-github fa-sm"></i></a>
+        <a href="https://www.linkedin.com/in/keon-pourboghrat-15142a98/"><i class="fa fa-linkedin fa-sm"></i></a>
+        <a href="./Keon-Resume.pdf"><i class="fa fa-file fa-sm"></i></a>
+      </div>
+    </div>
+    <div class="content-two">
+      <span>About me</span>
+      <p>
+        I am a Software Engineer trained FullStack from various frontend and backend technologies. I Graduated from
+        The
+        Ohio State University with a BA in Philosophy. Then decided to pursue my interest in development and somehow
+        ended
+        up
+        in it. I have many repsoitories on Github ranging from frontend webapps to backend API's.
+      </p>
+      <div class="edu-int-cont">
+        <div class="interests">
+          <span>Interests</span>
+          <ul>
+            <li>ES6+ Javascript</li>
+            <li>DevOPS</li>
+            <li>Microservices</li>
+            <li>UI/UX Development</li>
+            <li>Automation</li>
+          </ul>
+        </div>
+        <div class="education">
+          <span>Education</span>
+          <ul>
+            <li><i class="fa fa-graduation-cap"></i> BA in Philosophy, 2019</li>
+            <li><i class="fa fa-graduation-cap"></i> Ohio State Coding Boot Camp Spring 2021</li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <span>Skills</span>
+    <div class="skills">
+      <div class="skills-cont" onclick="skills('java')">
+        <i class="fab fa-java fa-4x icon"></i>
+        <span>Java 8</span>
+        <p id="java">(SpringBoot, JUnit, Maven)</p>
+      </div>
+      <div class="skills-cont" onclick="skills('nodejs')">
+        <i class="fab fa-node-js fa-4x icon"></i>
+        <span>Node.js</span>
+        <p id="nodejs">(Backend Development)</p>
+      </div>
+      <div class="skills-cont" onclick="skills('angular')">
+        <i class="fab fa-angular fa-4x icon"></i>
+        <span>Angular</span>
+        <p id="angular">(Frontend Development)</p>
+      </div>
+      <div class="skills-cont" onclick="skills('react')">
+        <i class="fab fa-react fa-4x icon"></i>
+        <span>React.js</span>
+        <p id="react">(More Frontend Dev)</p>
+      </div>
+      <div class="skills-cont" onclick="skills('python')">
+        <i class="fab fa-python fa-4x icon"></i>
+        <span>Python</span>
+        <p id="python">(Why not?)</p>
+      </div>
+      <div class="skills-cont" onclick="skills('database')">
+        <i class="fas fa-database fa-4x icon"></i>
+        <span>Databases</span>
+        <p id="database">(MySQL, MaraDB, MongoDB)</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <span>Experience</span>
+    <div class="experience">
+      <div class="card">
+        <span>American Airlines</span>
+        <i>Software Developer</i>
+        <p> Fort Worth TX, March 2020 T0 June 2020</p>
+        <ul>
+          <li>
+            Apart of the Baggage Service Operations team, monitor splunk logs, soti logs, xMatters logs, update and
+            maintain
+            Databases
+          </li>
+          <li>Splunk
+            <ul>
+              <li>Created Dashboards</li>
+              <li>Setup Alerts</li>
+              <li>Defined custom Field Extractions</li>
+            </ul>
+          </li>
+          <li>Developed Angular Ionic Cordova Android mobile applications for baggage services.</li>
+          <ul>
+            <li>This application scanned and onloaded/offloaded checked bags and cargo into the aircraft</li>
+            <li>All scanned bags and cargo were logged to a java backend service via RESTFul API technology.</li>
+          </ul>
+          <li>Tools: Ionic Framework, Angular 2+, Typescript, HTML, CSS, Bootstrap, Splunk, Soti, xMatters</li>
+        </ul>
+      </div>
+
+      <div class="connector"></div>
+
+      <div class="card">
+        <span>Neiman Marcus Project</span>
+        <i>Associate Software Engineer</i>
+        <p> Irving TX, September 2019 T0 March 2020</p>
+        <ul>
+          <li>Apart of the mobile apps support team.</li>
+          <li>Deploy Neiman Marcus Customer Facing app (CFA) on the App Store</li>
+          <li>Update SSL/TLS certificates for CFA app</li>
+          <li>Test/Validate client incidents on services on Neiman Marcus mobile apps</li>
+          <li>Maintained java backend Database services which controlled services on different mobile apps</li>
+          <li>Troubleshooting cloud-based services like Amazon Web Services (AWS), Filemaker for the ecommerce
+            website.
+          </li>
+          <li>Monitored traffic on all owned Neiman Marcus websites</li>
+          <li>Tools: Splunk, Dynatrace, Quantum Metric for detailed analysis</li>
+        </ul>
+      </div>
+
+      <div class="connector"></div>
+
+      <div class="card">
+        <span>Infosys Ltd.</span>
+        <i>Associate Software Engineer</i>
+        <p>Richardson TX, July 2019 T0 March 2020</p>
+        <ul>
+          <li>Trained two Months in Raliegh NC training center on FullStack Technologies</li>
+          <ul>
+            <li>Frontend:</li>
+            <ul>
+              <li>HTML 5</li>
+              <li>CSS</li>
+              <li>Typescript</li>
+              <li>Angular 7+</li>
+            </ul>
+            <li>Backend:</li>
+            <ul>
+              <li>SQL, OracleDB</li>
+              <li>Python</li>
+              <li>Java 8</li>
+              <li>SpringBoot</li>
+            </ul>
+          </ul>
+          <li>Internal Project</li>
+          <ul>
+            <li>On a team which developed the Richardson Hub main portal webpage</li>
+            <li>Developed in Angular using HTML5, CSS, Bootstrap, and typescript</li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <span>Projects</span>
+    <div class="projects">
+      <div class="card">
+        <span>MTG-Counters</span>
+        <img style="width: 30%; height: 30%;" src="https://mtg-counters.herokuapp.com/images/brand-image_3.png"
+          alt="image of MTG-Counters" />
+        <p>This project was designed to help facilitate playing magic the gathering over the internet.
+          using socket.io for real-time data, it tracks the players or teams health poision counters
+          aswell as contain a built-in coin flipper.
+        </p>
+        <div class="author">
+          Author: Keon Pourboghrat
+        </div>
+        <div class="btn-cont">
+          <a target="_blank" href="https://github.com/kekons4/mtg-counter">
+            <div class="github">
+              <i class="fa fa-github"></i>
+              <span>Code</span>
+            </div>
+          </a>
+          <a target="_blank" href="https://mtg-counters.herokuapp.com">
+            <div class="github">
+              <i class="fa fa-file"></i>
+              <span>Site</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <span>DnDbackend</span>
+        <img src="./LordKreios.jpg" alt="image of MTG-Counters" />
+        <p>Is a RESTful API used to GET and POST data to a SQL database.
+          Specifically for Dungeons and Dragons player sheets aswell as items stats.
+          This backend enable dungeon masters to play the game remotely with their data
+          persistently saved!
+        </p>
+        <div class="author">
+          Author: Keon Pourboghrat
+        </div>
+
+        <div class="btn-cont">
+          <a target="_blank" href="https://github.com/kekons4/dndbacked">
+            <div class="github">
+              <i class="fa fa-github"></i>
+              <span>Code</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <span>Contact</span>
+    <div class="contact">
+      <form action="https://formspree.io/f/xgepprlv" method="POST">
+        <label>Your Email: </label>
+        <input type="text" placeholder="email..." name="_replyto">
+        <label>Message: </label>
+        <textarea placeholder="message..." name="message"></textarea>
+
+        <!-- your other form fields go here -->
+
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <span>© Keon Pourboghrat</span>
+    <!--<a href="#about">Back to the Top</a>-->
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
