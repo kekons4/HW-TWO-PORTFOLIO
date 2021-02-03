@@ -1,3 +1,4 @@
+/* defined color scheme variables */
 :root {
   --bg-color-one: #001328;
   --bg-color-two: #010e1d;
@@ -8,10 +9,11 @@
   --card-bg-color: #022b5a;
 }
 
+/* Added custom font */
 @font-face {
   font-family: "code_saverregular";
-  src: url("codesaver-regular-webfont.woff2") format("woff2"),
-    url("codesaver-regular-webfont.woff") format("woff");
+  src: url("../fonts/codesaver-regular-webfont.woff2") format("woff2"),
+    url("../fonts/codesaver-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -28,6 +30,7 @@ html {
 body {
   margin: 0;
   background-color: var(--bg-color-one);
+  /* using custom font as primary font */
   font-family: "code_saverregular", sans-serif;
 }
 
