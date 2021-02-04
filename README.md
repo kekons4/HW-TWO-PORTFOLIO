@@ -23,3 +23,15 @@ In this project i created a portfolio showcasing my work experience, personal pr
 
 ![screenshot six](/assets/images/screenshots/screenshot_six.png)
 ##### screenshot of contact and footer section
+
+## Installation
+Clone the repository at https://github.com/kekons4/HW-TWO-PORTFOLIO.git add load it on
+code editor of your choice. Vscode is the prefered editor.
+
+## Credits
+Keon Pourboghrat https://github.com/kekons4
+
+
+## License
+MIT License
+![test](https://img.shields.io/apm/l/test)
