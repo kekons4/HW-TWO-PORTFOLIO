@@ -6,5 +6,20 @@ In this project i created a portfolio showcasing my work experience, personal pr
 
 ## Screenshots
 
-![screenshot one](/assets/images/screenshots/screenshot_one.png)
-##### screenshot of about me section/
+![screenshot one](/assets/images/screenshots/screenhot_one.png)
+##### screenshot of about me section
+
+![screenshot two](/assets/images/screenshots/screenshot_two.png)
+##### screenshot of skills section
+
+![screenshot three](/assets/images/screenshots/screenshot_three.png)
+##### screenshot of experience section
+
+![screenshot four](/assets/images/screenshots/screenshot_four.png)
+##### screenshot of project section
+
+![screenshot five](/assets/images/screenshots/screenshot_five.png)
+##### screenshot of project section again
+
+![screenshot six](/assets/images/screenshots/screenshot_six.png)
+##### screenshot of contact and footer section
