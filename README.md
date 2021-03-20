@@ -8,4 +8,5 @@ and a summary description of myself.
 
 ## Screenshots
 
-![Screenshot_one]()
+![Screenshot_one](/assets/images/screenshot_one.png)
+##### Screen shot of about me section
