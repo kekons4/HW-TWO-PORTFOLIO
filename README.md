@@ -23,4 +23,16 @@ and a summary description of myself.
 ![Screenshot_five](/assets/images/screenshot_five.png)
 ##### Screen shot of contact section
 
+## Installation
 
+Clone the repository at https://github.com/kekons4/HW-TWO-PORTFOLIO.git add load it on
+code editor of your choice. Vscode is the prefered editor.
+
+## Credits
+
+Keon Pourboghrat https://github.com/kekons4
+
+## License
+
+MIT License
+![test](https://img.shields.io/apm/l/test)
